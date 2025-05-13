@@ -8,24 +8,29 @@
 <body>
     <div>
         <label for="">numero1</label>
-        <input type="text" name="numero" id="">
+        <input type="text" name="numero" id="num1">
     </div>
     <div>
         <label for="numero 2">numero2</label>
-        <input type="text" name="nuemro2" id="">
+        <input type="text" name="nuemro2" id="num2">
     </div>
     
     <div>
-        <button mat-button>suma</button>
-        <button mat-button>resta</button>
-        <button mat-button>multiplicacion</button>
-        <button mat-button>division</button>
+        <button onclick="sumar()">suma</button>
+       
+        <button onclick="resta()">resta</button>
+        <button onclick="multiplica()">multiplicacion</button>
+        <button onclick="division()">division</button>
     
     </div>
+    
     <div>
         <label for="">resultado</label>
-        <input type="text" name="resultado" id="">
+        <div id="resultado">
+
+        </div>
+
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
